@@ -1,0 +1,24 @@
+package npm07024soalpendahuluan1_3;
+import java.util.Scanner;
+
+public class NPM07024soalPendahuluan1_3 
+{
+    public static void main(String[] args) 
+    {
+        int a=0;
+        for(String b = "y"; b.equals("y") || b.equals("Y");){
+        Scanner ulang = new Scanner(System.in);
+        Scanner input=new Scanner(System.in);
+        System.out.println("Input diameter : ");
+        double diameter=input.nextInt();
+        System.out.println("Input tinggi : ");
+        double tinggi=input.nextInt();
+        double pi=3.14;
+        double volume=(diameter/2*pi*pi)*tinggi;
+        System.out.println("Volume = " +volume);
+        System.out.print("Apakah Anda Mau Memilih Menu Lain? (Y/T) ");
+        b = ulang.next();
+    }
+    
+}
+}
