@@ -1,0 +1,12 @@
+package npm07024soalpendahuluan1_1;
+public class NPM07024soalPendahuluan1_1 
+{
+   public static void main(String[] args) 
+   {
+       int diameter=10;
+       double pi=3.14;
+       double luas=diameter/2*pi*pi;
+       System.out.println("Luas Lingkaran = " +luas);
+    }
+    
+}
